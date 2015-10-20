@@ -8,7 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class TicTacToeView;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

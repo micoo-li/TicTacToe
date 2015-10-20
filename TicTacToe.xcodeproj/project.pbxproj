@@ -13,6 +13,7 @@
 		4C62DC3317D8088700BAB57D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4C62DC3117D8088700BAB57D /* Credits.rtf */; };
 		4C62DC3617D8088700BAB57D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C62DC3517D8088700BAB57D /* AppDelegate.m */; };
 		4C62DC3917D8088700BAB57D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C62DC3717D8088700BAB57D /* MainMenu.xib */; };
+		4C62DC4117D809D200BAB57D /* TicTacToeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C62DC4017D809D200BAB57D /* TicTacToeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4C62DC3417D8088700BAB57D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C62DC3517D8088700BAB57D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C62DC3817D8088700BAB57D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4C62DC3F17D809D200BAB57D /* TicTacToeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeView.h; sourceTree = "<group>"; };
+		4C62DC4017D809D200BAB57D /* TicTacToeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				4C62DC3417D8088700BAB57D /* AppDelegate.h */,
 				4C62DC3517D8088700BAB57D /* AppDelegate.m */,
+				4C62DC3F17D809D200BAB57D /* TicTacToeView.h */,
+				4C62DC4017D809D200BAB57D /* TicTacToeView.m */,
 				4C62DC3717D8088700BAB57D /* MainMenu.xib */,
 				4C62DC2917D8088700BAB57D /* Supporting Files */,
 			);
@@ -168,6 +173,7 @@
 			files = (
 				4C62DC2F17D8088700BAB57D /* main.m in Sources */,
 				4C62DC3617D8088700BAB57D /* AppDelegate.m in Sources */,
+				4C62DC4117D809D200BAB57D /* TicTacToeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
